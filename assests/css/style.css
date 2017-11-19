@@ -16,6 +16,29 @@ header {
 
 }
 
+.logo {
+	float: left;
+    top: 0;
+    background-color: #4aaaa5;
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin-bottom: -9px;
+    margin-left: -38px;
+    text-align: center;
+  
+}
+
+
+.logo li {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 13px;
+    margin-left: 14px;
+    padding: 10px;
+}
 header li {
 	float: right;
 	margin-left: 32px;
@@ -25,17 +48,11 @@ header li {
 
 
 
-.logo {
-    float: left;
-    top: 0;
-    background-color: #4aaaa5;
-    color: white;
-  
-}
+
 
 h1 {
 	color: #4aaaa5;
-	font-size: 32px;
+	font-size: 27px;
 	margin-bottom: 16px;
 	padding: 10px;
 	border-bottom:2px solid #cccccc;
@@ -44,7 +61,7 @@ h1 {
 
 .section {
 	width: 650px;
-	height: 420px;
+	height: 500px;
 	float: left;
 	border-color: #dddddd;
 	background-color: #ffffff;
@@ -97,6 +114,39 @@ p {
 	height: 171px;
     width: 275px;
     margin: 10px 10px 10px 10px;
+    position: relative;
+}
+
+h2 span
+
+
+
+
+.form {
+	text-align: left;
+	width: 100%;
+	height: 150px;
+	margin-left: 26px;
+    margin-right: 28px;
+    margin-bottom: 35px;
+
+}	
+
+
+
+form {
+	 margin-left: auto; 
+     margin-right: auto; 
+}
+
+input {
+	width: 600px;
+	border: 2px solid #cccccc;
+}
+
+
+#message {
+	height: 171px;
 }
 
 footer {
@@ -110,15 +160,4 @@ footer {
     border-top: solid 5px #4aaaa5;
     position: fixed;
 }
-
-
-.form {
-	text-align: center;
-	width: 100%;
-}
-
-
-form {
-	 margin-left: auto; 
-     margin-right: auto; 
 }

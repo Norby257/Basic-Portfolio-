@@ -1,0 +1,182 @@
+body {
+	background-image: url("../spiration-light.png");
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #777777;
+
+}
+
+header {
+	background-color: #ffffff;
+	display: inline-block;
+	width: 100%;
+	border-bottom: 2px solid #cccccc;
+	margin-bottom: 20px;
+	padding:8px
+
+
+}
+
+.logo {
+	float: right;
+    top: 0;
+    background-color: #4aaaa5;
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin-bottom: -9px;
+    margin-left: -38px;
+    text-align: center;
+  
+}
+
+
+.logo li {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 6px;
+    margin-left: 14px;
+    padding: 10px;
+}
+header li {
+	float: right;
+	margin-left: 32px;
+	color: #777777;
+	list-style: none;
+}
+
+a {
+	color: #777777; 
+	transition: color 0.5s;
+}
+
+ a :hover{
+				color:#1E4543;
+			}
+
+
+
+
+
+h1 {
+	color: #4aaaa5;
+	font-size: 27px;
+	margin-bottom: 16px;
+	padding: 10px;
+	border-bottom:2px solid #cccccc;
+}
+
+
+.section {
+	width: 650px;
+	height: 600px;
+	float: left;
+	border-color: #dddddd;
+	background-color: #ffffff;
+
+}
+
+
+.section h1 {
+border-bottom: 2px solid #cccccc;
+
+}
+
+
+
+.profile-pic {
+	width: 166px;
+    height: 126px;
+	float: left;
+	margin: 20px 20px 20px 20px;
+}
+
+p {
+	margin-bottom: 20px;
+	padding:10px;
+	line-height: 1.5;
+
+
+}
+
+.aside {
+	width: 270px;
+	height: 175px;
+	float: right;
+	background-color: #ffffff;
+
+
+}
+
+
+.aside .social-media {
+	width: 49px;
+	height: 49px;
+	margin-left: 30px;
+    margin-right: -21px;
+    margin-top: 10px;
+}
+
+
+.portfolio-pics {
+	height: 171px;
+    width: 275px;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+}
+
+h2 span {
+	 background-color: #4aaaa5;
+    color: white;
+    height: 53px;
+    width: 236;
+    clear: both;
+    display: inline-block;
+    width: 285px;
+    margin-left: 0px;
+    float:left;
+}
+
+
+
+
+.form {
+	text-align: left;
+	width: 100%;
+	height: 150px;
+	margin-left: 26px;
+    margin-right: 28px;
+    margin-bottom: 35px;
+
+}	
+
+
+
+form {
+	 margin-left: auto; 
+     margin-right: auto; 
+}
+
+input {
+	width: 600px;
+	border: 2px solid #cccccc;
+}
+
+
+#message {
+	height: 171px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #666666;
+    border-top: #4aaaa5;
+    bottom: 0;
+    width: 100%;
+    padding: 16px;
+    border-top: solid 5px #4aaaa5;
+    position: fixed;
+}
+}

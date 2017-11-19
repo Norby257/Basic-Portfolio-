@@ -58,13 +58,15 @@ a {
 
 
 
-
+/* pseudo code for teal boxes */ 
 h1 {
 	color: #4aaaa5;
 	font-size: 27px;
 	margin-bottom: 16px;
 	padding: 10px;
 	border-bottom:2px solid #cccccc;
+	/* tried z-index 
+	and I attempted the positioing too */
 }
 
 

@@ -20,6 +20,7 @@ header li {
 	float: right;
 	margin-left: 32px;
 	color: #777777;
+	list-style: none;
 }
 
 
@@ -91,16 +92,33 @@ p {
     margin-top: 10px;
 }
 
+
+.portfolio-pics {
+	height: 171px;
+    width: 275px;
+    margin: 10px 10px 10px 10px;
+}
+
 footer {
     clear: both;
     text-align: center;
     background-color: #666666;
     border-top: #4aaaa5;
-    position: relative;
     bottom: 0;
     width: 100%;
     padding: 16px;
     border-top: solid 5px #4aaaa5;
+    position: fixed;
 }
 
 
+.form {
+	text-align: center;
+	width: 100%;
+}
+
+
+form {
+	 margin-left: auto; 
+     margin-right: auto; 
+}
